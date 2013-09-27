@@ -51,7 +51,7 @@
 
 #uncomment to run the exim::auth recipe
 #include_recipe "exim::auth"
-include_recipe "mongodb::default"
+include_recipe "mongodb"
 
 #uncomment to run the resque recipe
 # include_recipe "resque"
